@@ -21,7 +21,6 @@ export const Footer = () => {
               <a href="#"><img src={navIcon3} alt="Icon" /></a> */}
             </div>
           </Col>
-          <p>Copyright 2022. All Rights Reserved</p>
         </Row>
       </Container>
     </footer>
