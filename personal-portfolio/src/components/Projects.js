@@ -91,10 +91,10 @@ export const Projects = () => {
                       <Nav.Link eventKey="first">All</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Web Applications</Nav.Link>
+                      <Nav.Link eventKey="second">Web</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Mobile Applications</Nav.Link>
+                      <Nav.Link eventKey="third">Mobile</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
