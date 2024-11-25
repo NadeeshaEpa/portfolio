@@ -55,7 +55,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                {/* <span className="tagline">Welcome</span> */}
+                <span className="tagline">Welcome</span>
                 <h2>{`Hi! I'm Nadeesha Nethmini Epa`}</h2>
                 <h2><span className="txt-rotate" dataPeriod="100" data-rotate='[ "Full Stack Developer", "Mobile Application Developer", "Former SE Intern at Creative Software", "4th Year Undergraduate" ]'><span className="wrap">{text}</span></span></h2>
                   <p> I am a dedicated and results-driven B.Sc. (Hons.) Computer Science student at the University of Colombo School of Computing, with a GPA of 3.90/4.00 and a strong record of academic achievement, including being selected for the Dean's List in both my second and third years. My passion lies in developing impactful software and exploring innovative technologies, backed by a solid foundation in front-end and back-end development.Recently, I completed a six-month internship as a Software Engineering Intern, where I gained hands-on experience in designing and implementing efficient software solutions. I am eager to bring this industry experience to future roles, applying my skills to create meaningful, user-focused applications.</p>
