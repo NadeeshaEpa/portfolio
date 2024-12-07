@@ -7,7 +7,6 @@ import navIcon1 from "../assets/img/icons8-linkedin.svg";
 import navIcon2 from "../assets/img/github.svg";
 import navIcon3 from "../assets/img/icons8-email.svg";
 import download from "../assets/img/download.svg";
-import CV from "../assets/img/CV.pdf";
 export const Contact = () => {
   const formInitialDetails = {
     firstName: '',
