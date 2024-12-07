@@ -95,6 +95,22 @@ export const Contact = () => {
                               </div>
                             </a></td>
                         </tr>
+                        <tr>
+                            <td><strong>CV:</strong></td>
+                            <td>
+                                <a href="CV/cv.pdf" download="Nadeesha_Nethmini_Epa_CV.pdf">
+                                    <button>Download CV</button>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Current Transcript:</strong></td>
+                            <td>
+                                <a href="path/to/transcript.pdf" download="Nadeesha_Nethmini_Epa_Transcript.pdf">
+                                    <button>Download Transcript</button>
+                                </a>
+                            </td>
+                        </tr>
                     </table>
                   </div> 
                 </div>
