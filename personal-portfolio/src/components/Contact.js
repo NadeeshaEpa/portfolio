@@ -6,6 +6,8 @@ import TrackVisibility from 'react-on-screen';
 import navIcon1 from "../assets/img/icons8-linkedin.svg";
 import navIcon2 from "../assets/img/github.svg";
 import navIcon3 from "../assets/img/icons8-email.svg";
+import download from "../assets/img/download.svg";
+import CV from "../assets/img/CV.pdf";
 export const Contact = () => {
   const formInitialDetails = {
     firstName: '',
@@ -98,16 +100,20 @@ export const Contact = () => {
                         <tr>
                             <td><strong>CV:</strong></td>
                             <td>
-                                <a href="CV/cv.pdf" download="Nadeesha_Nethmini_Epa_CV.pdf">
-                                    <button>Download CV</button>
+                                <a href="CV/CV.pdf" download="Nadeesha_Nethmini_Epa_CV.pdf">
+                                    <div className="social-icon">
+                                      <img src={download} alt="Download" />
+                                    </div>
                                 </a>
                             </td>
                         </tr>
                         <tr>
                             <td><strong>Current Transcript:</strong></td>
                             <td>
-                                <a href="path/to/transcript.pdf" download="Nadeesha_Nethmini_Epa_Transcript.pdf">
-                                    <button>Download Transcript</button>
+                                <a href="CV/transcript.pdf" download="Nadeesha_Nethmini_Epa_Transcript.pdf">
+                                    <div className="social-icon">
+                                      <img src={download} alt="Download" />
+                                    </div>
                                 </a>
                             </td>
                         </tr>
